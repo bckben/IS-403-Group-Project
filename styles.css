@@ -1,0 +1,148 @@
+/* Header */
+nav h1 {
+  font-size: 2.5rem;
+  color: #add8e6; /* Light Blue color for the business name */
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+/* Slogan Container in the Upper Right */
+.slogan-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Centers text within container */
+}
+
+/* Circular Slogan Image */
+.slogan-image {
+  width: 100px; /* Adjust the width of the image */
+  height: 100px; /* Set height equal to width for a perfect circle */
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures image fills the circle */
+  margin-left: 10px; /* Space between the image and the text */
+}
+
+/* Centered Slogan Text */
+.slogan-text {
+  font-size: 1.2rem;
+  color: #808080; /* Grey color for the slogan text */
+  font-weight: lighter;
+  text-align: center; /* Centers the text itself */
+  margin-left: 10px; /* Space between the image and text */
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #f4f4f4; /* Light grey background */
+  flex: 1;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #000000; /* Black color for headings */
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #808080; /* Grey color for paragraph text */
+}
+
+/* Button Group */
+.button-group {
+  text-align: center;
+}
+
+/* Button Styling */
+.login-form .button,
+.button-group .button {
+  width: 50%;
+  text-align: center;
+  background-color: #add8e6; /* Light blue color for button */
+  color: #ffffff;
+  padding: 1rem; /* Increased padding for bigger buttons */
+  font-size: 1.2rem; /* Larger font size for readability */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 1rem; /* Space between buttons */
+}
+
+.login-form .button:hover,
+.button-group .button:hover {
+  background-color: #87ceeb; /* Darker light blue for hover effect */
+}
+/* Full-page height for centering */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4; /* Light grey background */
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Login Form Styles */
+.login-form {
+  width: 100%;
+  max-width: 400px; /* Limits form width */
+  padding: 2rem;
+  background-color: #ffffff; /* White background for the form */
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.login-form h2 {
+  margin-bottom: 1rem;
+  color: #000000;
+}
+
+.login-form label {
+  font-size: 1rem;
+  color: #808080; /* Grey color for labels */
+  margin-bottom: 0.5rem;
+  display: block;
+  text-align: left;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* Button Styling */
+.button {
+  width: 100%;
+  background-color: #add8e6; /* Light blue color for button */
+  color: #ffffff;
+  padding: 1rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #87ceeb; /* Darker light blue for hover effect */
+}
